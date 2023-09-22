@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Styles</title>
 
+    <!--style element for css-->
+
+    <style>
+        button{
+            margin:20px 20px;
+            padding:10px 30px;
+
+            border:none;
+            border-radius:20px;
+            cursor:pointer;
+
+            color:rgb(3, 12, 61);
+            background-color:cyan;
+            box-shadow:0 0 5px cyan,
+            0 0 25px cyan;
+
+        }
+        button:hover{
+            box-shadow:0 0 5px cyan, 
+            0 0 25px cyan, 0 0 50px cyan, 
+            0 0 100px cyan, 0 0 200px cyan;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--html button-->
+    <button>Neon Button</button>
+    
+</body>
+</html>
